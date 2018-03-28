@@ -18,7 +18,6 @@ public class JavaAlgorithms extends JFrame {
 	private JButton insertButton, deleteButton, findButton, sortButton;
 	JRadioButton linearSearchRadioButton, binarySearchRadioButton;
 	JRadioButton descendingRadioButton, ascendingRadioButton;
-	
 	int cellToMark = -1;
 	
 	// Holds the array that goes in JTable
@@ -280,7 +279,7 @@ class AlgorithmsMVC{
 		AlgorithmsController theController = new AlgorithmsController(theView, theModel);
 		
 		theView.setVisible(true);
-		
+		          System.out.println("");
 	}
 	
 }
